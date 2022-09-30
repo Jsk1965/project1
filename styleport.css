@@ -1,0 +1,88 @@
+.logo1{
+    width: 125px;
+    height: 50px;
+}
+.topcontainer{
+    width:100%;
+    height: 50px;
+    flex-direction: column;
+    background-color: rgb(96, 65, 211);
+    border-radius: 3px;
+}
+.logo{
+    width: 35%;
+    height: 50px;
+    float: left;
+}
+.menu{
+    width:50%;
+        margin-left: 850px;
+}
+a{
+    padding: 2px 13px;
+    padding-top: 13px;
+    padding-bottom: 16px;
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 18px;
+    float:left;
+    font-weight: 100;
+    letter-spacing: 0.1cm;
+}
+.devlogo{
+    padding-top: 1px;
+    width: 90px;
+    height: 48px;
+    float:left;
+    margin: left 26px;
+}
+a:hover{
+    opacity: 1;
+    color: black;
+    background-color: #ddd;
+}
+#heading{
+    text-align: center;
+    width: 830px;
+    margin-top: 155px;
+    
+}
+#intro{
+    font-weight: 500;
+    font-size: 42px;
+    margin-bottom: 20px;
+    line-height: 1.2em;
+    text-transform: none;
+}
+h2{
+    font-weight: 300;
+    font-size: 32px;
+    font: small-caps bold 24px/1 sans-serif;
+}
+h3{
+    font-size: 24px;
+    margin-bottom: 20px;
+    line-height: 1.2em;
+    font-weight: 500;
+    text-transform: none;
+    float:right;
+    
+}
+.profile{
+    float:right;
+    width: 400px;
+    height: fit-content;
+    border-radius: 250px;
+    margin-right: -450px;
+    margin-top: -80px;
+}
+p{
+    text-align: center;
+    padding-right: 475px;
+    font: italic 1.2em "Fira Sans", serif;
+    padding-top: 155px;
+}
+button{
+    align-items: center;
+    margin-left: 375px;
+}

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      #more {
+        display: none;
+      }
+    </style>
+    <title>Jishnu.s</title>
+    <link rel="stylesheet" href="styleport.css" type="text/css" />
+  </head>
+  <body>
+    <div
+      style="
+        background-image: url(logo/bck.jpg);
+        background-size: cover;
+        height: 720px;
+      "
+    >
+      <div class="topcontainer">
+        <div class="logo">
+          <img class="logo1" src="logo/jsk1.png" alt="logo" />
+        </div>
+        <div class="menu">
+          <a href="indexporto.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="contact.html">Contact</a>
+          <a href="/facebook clone/">Project</a>
+          <img class="devlogo" src="logo/devlogo.webp" alt="" />
+        </div>
+      </div>
+      <div class="main-body">
+        <section id="heading">
+          <h2 id="intro">Hello &#33; its me jishnu &#128512;</h2>
+          <img class="profile" src="logo/j1.jpg" alt="profile photo" />
+          <h3>
+            I’m a web designer and Full-Stack web developer with over <br />
+            1 month of experience. I specialize in creating custom websites for
+            studies and project – <br />focusing primarily on theme design and
+            development
+          </h3>
+        </section>
+        <br />
+        <p>
+          Hi, I’m jishnu! I'm a web developer with some-basic experience in
+          HTML/CSS. In a nutshell, <br />
+          I create clone Facebook login page with some design changes.<span
+            id="dots"
+            >...</span
+          ><span id="more"
+            >I manage everything from HTML,CSS and some cool animated pages.<br />
+            My expertise lies within front-end web apps, and the main languages
+            in my tech stack are JavaScript, React, and of course HTML/CSS.<br />
+            I’m a lifelong learner (currently taking a course on
+            Full-Stack-web-developer with Entri Elevate!)thank you.
+          </span>
+        </p>
+        <button onclick="myFunction()" id="myBtn">Read more</button>
+
+        <script>
+          function myFunction() {
+            var dots = document.getElementById("dots");
+            var moreText = document.getElementById("more");
+            var btnText = document.getElementById("myBtn");
+
+            if (dots.style.display === "none") {
+              dots.style.display = "inline";
+              btnText.innerHTML = "Read more";
+              moreText.style.display = "none";
+            } else {
+              dots.style.display = "none";
+              btnText.innerHTML = "Read less";
+              moreText.style.display = "inline";
+            }
+          }
+        </script>
+      </div>
+    </div>
+  </body>
+</html>
